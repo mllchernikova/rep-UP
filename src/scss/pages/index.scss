@@ -12,9 +12,24 @@
     height: 440px;
     background: #fff3e3;
 
-    p {
-      padding: 0;
-      margin: 0;
-    }
+
+  }
+  h5{
+    font-size: 30px;
+    margin-left: 50px;
+    padding-top: 50px;
+    font-family: var(--font-family-title)
+  }
+  h3{
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: -30px;
+    color: #b88e2f;
+    font-family: var(--font-family-title)
+  }
+  p{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -50px;
   }
 }
