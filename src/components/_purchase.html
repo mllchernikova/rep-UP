@@ -1,0 +1,48 @@
+<!--<div class="card2">-->
+<!--    <picture >-->
+<!--        <source srcset="@@img-sm.webp" media="(max-width: 480px)">-->
+<!--        <source srcset="@@img-lg.webp" media="(max-width: 800px)">-->
+<!--        <img src="@@img.webp" alt="@@alt" id="card__image2">-->
+<!--    </picture>-->
+<!--    <div class="card__body2">-->
+<!--        <h3 class="card__title2">@@title</h3>-->
+<!--        <p class="card__text">@@text</p>-->
+<!--        <p class="card__cost">@@cost</p>-->
+<!--        <p class="card__sale">@@sale</p>-->
+<!--        <div class="card_grey"></div>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+
+
+
+
+<div class="purchase">
+    <div class="purchase__img">
+        <span class="purchase__mark @@classSale">@@text</span>
+        <img src="@@purchaseImg.webp" alt="@@purchaseTitle" class="purchase__img">
+        <div class="purchase__overlay">
+            <button class="purchase__add-to-cart"><a href="/index3.html">Add to cart</a></button>
+            <div class="purchase__actions">
+                <a href="#" class="purchase__action"><i></i>Share</a>
+                <a href="#" class="purchase__action"><i></i>Compare</a>
+                <a href="#" class="purchase__action"><i></i> Like</a>
+            </div>
+        </div>
+    </div>
+    <div class="purchase__info">
+        <h3 class="purchase__title">@@purchaseTitle</h3>
+        <p class="purchase__description">@@purchaseDescription</p>
+        <div class="purchase__price">
+            <span class="purchase__current-price">Rp @@purchasePrice</span>
+            @@if (purchaseSellPrice !== false) {
+            <span class="purchase__old-price">Rp @@purchaseSellPrice</span>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+

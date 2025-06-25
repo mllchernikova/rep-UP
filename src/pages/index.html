@@ -9,14 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-<!--<h1>Карточки</h1>-->
 
-<!--@@include('../components/_header.html', {-->
-<!--"img": "./assets/images/cat1",-->
-<!--"alt": "Изображение 1",-->
-<!--"title": "Заголовок 1",-->
-<!--"text": "Текст описания карточки 1"-->
-<!--})-->
 
 
 @@include('../components/_header.html')
@@ -30,23 +23,141 @@
 
 </section>
 
-@@include('../components/_block1.html')
+<section class="block1">
+    <p class="name1">Browse The Range</p>
+    <p class="name2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</section>
 
-<div class="btn">
-    @@include('./_button.html',{
+
+<section class="btn">
+    @@include('./../components/_button.html', {
     "padding-x": "50px",
     "padding-y": "25px",
     "border-radius": "0",
     "title": "BUY NOW",
     "color": "var(--main-color-oran-temp)",
-    "font-size" "0px",
     "border": "none",
-    "color_text": "white"
+    "color_text": "white",
+    "font-size": "0px"
     })
-</div>
+</section>
+
+<section class="room">
+@@include('../components/_kartocki1.html', {
+"img": "./assets/images/k1",
+"title": "Dining"
+})
+
+@@include('../components/_kartocki1.html', {
+"img": "./assets/images/k2",
+"title": "Living"
+})
+
+@@include('../components/_kartocki1.html', {
+"img": "./assets/images/k3",
+"title": "Bedroom"
+})
+</section>
+    <section class="prod">
+        <div class="kart">
+            <h2 class="products__title">Our Products</h2>
+            <div class="products__grid">
+                @@include('../components/_purchase.html', {
+                "purchaseImg": "./assets/images/meb1",
+                "classSale":"sale",
+                "text":"-30%",
+                "purchaseTitle": "Syltherine",
+                "purchaseDescription": "Stylish cafe chair",
+                "purchasePrice": "2.500.000",
+                "purchaseSellPrice": "3.500.000",
+                })
+                @@include('../components/_purchase.html', {
+                "purchaseImg": "./assets/images/meb 2",
+                "classSale":"",
+                "text":"",
+                "purchaseTitle": "Leviosa",
+                "purchaseDescription": "Stylish cafe chair",
+                "purchasePrice": "2.500.000",
+                "purchaseSellPrice": false,
+                })
+                @@include('../components/_purchase.html', {
+                "purchaseImg": "./assets/images/meb 3",
+                "classSale":"sale",
+                "text":"-50%",
+                "purchaseTitle": "Lolito",
+                "purchaseDescription": "Luxury big sofa",
+                "purchasePrice": "7.000.000",
+                "purchaseSellPrice": "14.000.000",
+                })
+                @@include('../components/_purchase.html', {
+                "purchaseImg": "./assets/images/meb 4",
+                "classSale":"new",
+                "text":"New",
+                "purchaseTitle": "Respira",
+                "purchaseDescription": "Outdoor bar table and stool",
+                "purchasePrice": "500.000",
+                "purchaseSellPrice": false,
+                })
+                @@include('../components/_purchase.html', {
+                "purchaseImg": "./assets/images/meb 5",
+                "classSale":"",
+                "text":"",
+                "purchaseTitle": "Grifo",
+                "purchaseDescription": "Night lamp",
+                "purchasePrice": "1.500.000",
+                "purchaseSellPrice": false,
+                })
+                @@include('../components/_purchase.html', {
+                "purchaseImg": "./assets/images/meb 6",
+                "classSale":"new",
+                "text":"New",
+                "purchaseTitle": "Muggo",
+                "purchaseDescription": "Small mug",
+                "purchasePrice": "150.000",
+                "purchaseSellPrice": false,
+                })
+                @@include('../components/_purchase.html', {
+                "purchaseImg": "./assets/images/meb 7",
+                "classSale":"sale",
+                "text":"-50%",
+                "purchaseTitle": "Pingky",
+                "purchaseDescription": "Cute bed set",
+                "purchasePrice": "7.000.000",
+                "purchaseSellPrice": "14.000.000",
+                })
+                @@include('../components/_purchase.html', {
+                "purchaseImg": "./assets/images/meb 8",
+                "classSale":"new",
+                "text":"New",
+                "purchaseTitle": "Potty",
+                "purchaseDescription": "Minimalist flower pot",
+                "purchasePrice": "500.000",
+                "purchaseSellPrice": false,
+                })
+            </div>
+            @@include('./../components/_button.html', {
+            "padding-x": "80px",
+            "padding-y": "10px",
+            "border-radius": "0",
+            "title": "Show More",
+            "color": "white",
+            "border": "var(--main-color-oran-temp) 2px solid",
+            "color_text": "var(--main-color-oran-temp)",
+            "font-size": "20px"
+            })
+        </div>
+    </section>
 
 
-
+<section class="inspiration-section">
+    <img src="./assets/images/fon" alt="">
+    <div class="container">
+        <div class="inspiration-header">
+            <h1 class="inspiration-title">50+ Beautiful rooms inspiration</h1>
+            <p class="inspiration-subtitle">Our designer already made a lot of beautiful <br> prototype of rooms that inspire you</p>
+        </div>
+    </div>
+</section>
 
 </body>
 </html>
