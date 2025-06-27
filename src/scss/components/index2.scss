@@ -1,0 +1,113 @@
+.filtr {
+    background-color: #F9F1E7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    padding-top: 131px;
+
+
+    &__filter {
+        display: flex;
+        gap: 15px;
+    }
+
+    &__1 {
+        padding-left: 70px;
+        display: flex;
+        gap: 25px;
+    }
+
+    &__block {
+        border: none;
+        height: 40px;
+        border-left: #616161 1px solid;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    &__title {
+        font-size: 20px;
+    }
+
+    &__2 {
+        padding-right: 70px;
+        display: flex;
+        gap: 25px;
+        vertical-align: auto;
+    }
+
+    &__button {
+        width: 55px;
+        height: 55px;
+        background-color: white;
+        border: none;
+        color: #9F9F9F;
+        font-size: 20px;
+        margin-top: -20px;
+    }
+
+    &__button2 {
+        width: 188px;
+        height: 55px;
+        background-color: white;
+        border: none;
+        color: #9F9F9F;
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+.numeryc{
+    display: flex;
+    gap: 50px;
+    margin-left: 700px;
+    margin-top: 80px;
+
+    .ctr1{
+        width: 60px;
+        height: 60px;
+        background: var(--primary-color);
+        border-radius: 15px;
+        text-align: center;
+    }
+    .ctr2{
+        width: 60px;
+        height: 60px;
+        background: var(--bez-color);
+        border-radius: 15px;
+        text-align: center;
+
+    }
+    .ctr3{
+        width: 60px;
+        height: 60px;
+        background: var(--bez-color);
+        border-radius: 15px;
+        text-align: center;
+    }
+    .next{
+        width: 98px;
+        height: 60px;
+        background: var(--bez-color);
+        border-radius: 15px;
+        text-align: center;
+    }
+}
+.icons{
+    display: flex;
+    gap: 90px;
+    margin-left: 70px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+}
+.bez_rect{
+    width: 100%;
+    height: 270px ;
+    background: var(--bez-color);
+}
+

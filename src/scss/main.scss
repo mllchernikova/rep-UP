@@ -16,6 +16,9 @@
 @use "components/footer";
 @use "components/kartochki1";
 @use "components/purchase";
+@use "components/index2";
+@use "components/polocka";
+@use "components/ver";
 body {
   background-color: var(--main-color);
   box-sizing: border-box;
