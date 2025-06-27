@@ -7,7 +7,7 @@
     padding-top: 40px;
     padding-bottom: 20px;
     margin-bottom: 40px;
-    padding-top: 131px;
+    margin-top: -65px;
 
 
     &__filter {
@@ -110,4 +110,81 @@
     height: 270px ;
     background: var(--bez-color);
 }
+.products__grid1{
+    display: flex;
+}
+.products__grid2{
+    display: flex;
+}
+.products__grid3{
+    display: flex;
+}
+.products__grid4{
+    display: flex;
+}
+.kk{
+    margin-left: 400px;
+}
+.ctr1_text{
+    background-color: #B88E2F;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+}
+.ctr2_text{
+    background-color: #F9F1E7;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ctr3_text{
+    background-color: #F9F1E7;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}.ctr4_text{
+     background-color: #F9F1E7;
+     width: 100px;
+     height: 60px;
+     text-align: center;
+     border-radius: 12px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+.icons{
+    gap: 150px;
+    margin-left: 200px;
+    margin-top: -300px;
+}
+.polocka__text{
+    color: grey;
+}
+.prum3{
+    width: 1940px;
+    height: 270px;
+    background-color: #F9F1E7;
+    margin-top: 100px;
+}
